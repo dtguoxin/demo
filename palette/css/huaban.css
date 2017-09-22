@@ -1,0 +1,122 @@
+*{
+	margin: 0;
+	padding: 0;
+}
+@font-face {
+  font-family: 'iconfont';  /* project id 399989 */
+  src: url('http://at.alicdn.com/t/font_399989_9iafrp0tdjqncdi.eot');
+  src: url('http://at.alicdn.com/t/font_399989_9iafrp0tdjqncdi.eot?#iefix') format('embedded-opentype'),
+  url('http://at.alicdn.com/t/font_399989_9iafrp0tdjqncdi.woff') format('woff'),
+  url('http://at.alicdn.com/t/font_399989_9iafrp0tdjqncdi.ttf') format('truetype'),
+  url('http://at.alicdn.com/t/font_399989_9iafrp0tdjqncdi.svg#iconfont') format('svg');
+}
+.iconfont{
+	font-family: 'iconfont';
+}
+.pelette{
+	width: 100%;
+	height: 600px;
+	position: relative;
+}
+.left{
+	width: 130px;
+	height: 100%;
+	border-right: 2px solid #fff;
+	background: #ccc;
+	/*display: flex;
+	flex-wrap: wrap;
+	justify-content: space-around;*/
+	border-right: 2px solid #2C2C44;
+}
+.left>label{
+	width: 40%;
+	height: 20px;
+	color: #000000;
+	margin-top: 50px;
+	border: 2px solid #000000;
+	font-size: 16px;
+	line-height: 20px;
+	text-align: center;
+	float: left;
+	margin-left: 5px;
+}
+.left>label:hover{
+	font-size: 20px;
+}
+input{
+	width: 40%;
+	height: 20px;
+	color: #000000;
+	margin-top: 50px;
+	border: 2px solid #000000;
+	float: left;
+	margin-left: 5px;
+}
+.right{
+	position: absolute;
+	left: 132px;
+	right: 0;
+	top: 0;
+	bottom: 0;
+	background: #ccc;
+}
+.right>.top{
+	position: absolute;
+	left: 0;
+	top: 0;
+	bottom: 130px;
+	right: 0;
+	background: #ccc;
+}
+.top>label{
+	width: 40px;
+	height: 20px;
+	border: 2px solid #000000;
+	font-size: 16px;
+	line-height: 20px;
+	text-align: center;
+	float: left;
+	margin-left: 5px;
+}
+.right>.bottom{
+	position: absolute;
+	top: 130px;
+	bottom: 0;
+	left: 0;
+	right: 0;
+}
+.right>.bottom>canvas{
+	position: absolute;
+	left: 0;
+	right: 0;
+	bottom: 0;
+	top: 0;
+	background: #fff;
+}
+.mask{
+	position: absolute;
+	left: 0;
+	right: 0;
+	bottom: 0;
+	top: 0;
+	z-index: 999;
+}
+.rubber{
+	width: 30px;
+	height: 30px;
+	background: #000066;
+	position: absolute;
+	top: 0;
+	left: 0;
+	display: none;
+}
+label[active="true"]{
+	border: 2px solid #C60000;
+}
+.clip{
+	display: none;
+	border: 2px dashed #000000;
+	position: absolute;
+	left: 0;
+	top: 0;
+}
