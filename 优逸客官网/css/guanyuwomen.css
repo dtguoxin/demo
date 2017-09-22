@@ -1,0 +1,245 @@
+/*
+* @Author: Administrator
+* @Date:   2017-07-20 23:59:34
+* @Last Modified by:   Administrator
+* @Last Modified time: 2017-07-23 22:01:56
+*/
+*{
+	margin: 0;
+	padding: 0;
+	list-style: none;
+	text-decoration: none;
+}
+header{
+	width: 100%;
+	height: 0.92rem;
+	background: #0078e6;
+	position: fixed;
+	top: 0;
+	left: 0;
+	z-index: 999;
+}
+#head{
+	width: 100%;
+	height: 0.92rem;
+}
+header img{
+	float: left;
+	width: 0.7rem;
+	height: 0.68rem;
+	margin-left: 2.74rem;
+	margin-top: 0.12rem;
+}
+header p{
+	width: 1.15rem;
+	height: 0.36rem;
+	font-size: 0.36rem;
+	float: left;
+	color: #ffffff;
+	margin-top: 0.28rem;
+	margin-left: 0.16rem;
+}
+.lunbo{
+	width: 100%;
+	height: 2.8rem;
+}
+.lunbo img{
+	width: 100%;
+	height: 100%;
+}
+.shouye{
+	width: 100%;
+	height: 0.82rem;
+	background: #f5f6fa;
+}
+.shouye span{
+	display: block;
+	margin-left: 0.23rem;
+	line-height: 0.82rem;
+	font-size: 0.22rem;
+	color: #494747;
+}
+.shouye span a{
+	color: #494747; 
+}
+.big-gaishu{
+	width: 100%;
+	height: 7.8rem;
+	background: #f5f6fa;
+	border-bottom: 0.1rem solid #f5f6fa;
+
+}
+.gaishu{
+	width: 7.02rem;
+	height: 100%;
+	background: #ffffff;
+	margin: 0 auto;
+	margin-bottom: 0.1rem;
+	overflow: hidden;
+}
+.gaishu div:first-of-type{
+	width: 0.04rem;
+	height: 0.2rem;
+	background: #01b5ff;
+	margin-left: 0.19rem;
+	margin-top: 0.32rem;
+	float: left;
+}
+.gaishu div:nth-of-type(2){
+	width: 6rem;
+	height: 0.49rem;
+	font-size: 0.22rem;
+	color: #444444;
+	margin-left: 0.2rem; 
+	float: left;
+	margin-top: 0.25rem;
+	border-bottom: 0.01rem dashed #999999;
+	line-height: 0.49rem;
+}
+.gaishu p:first-of-type{
+	width: 6.39rem;
+	height: 3.23rem;
+	margin: 0 auto;
+	font-size: 0.22rem;
+	margin-top: 0.83rem;
+	color: #666666;
+	margin-bottom: 0.34rem;
+}
+.gaishu p:nth-of-type(2){
+	width: 6.39rem;
+	height: 3.23rem;
+	margin: 0 auto;
+	font-size: 0.22rem;
+	margin-top: 0.34rem;
+	color: #666666;
+	margin-bottom: 0.34rem;
+}
+/* 修改开始 */
+.big-qiyewenhua{
+	width: 100%;
+	height: 2.74rem;
+	background: #f5f6fa;
+	border-bottom: 0.1rem solid #f5f6fa;
+}
+.main-qiye{
+	width: 7.02rem;
+	height: 100%;
+	background: #ffffff;
+	margin: 0 auto;
+}
+.qiye-top{
+	width: 100%;
+	height: 0.68rem;
+}
+.qiye-t-l{
+	width: 0.19rem;
+	height: 0.2rem;
+	margin-top: 0.32rem;
+	border-right: 0.04rem solid #01b5ff;
+	float: left;
+}
+.qiye-t-r{
+	width: 6.39rem;
+	height: 0.5rem;
+	float: left;
+	margin-left: 0.2rem;
+	margin-top: 0.15rem;
+	font-size: 0.22rem;
+	color: #444444;
+	line-height: 0.5rem;
+	border-bottom: 0.01rem dashed #999999;
+}
+.qiye-bottom{
+	width: 100%;
+	height: 2.06rem;
+	overflow: hidden;
+}
+.qiye-bottom ul{
+	width: 5.44rem;
+	height: 1.32rem;
+	margin: 0 auto;
+	margin-top: 0.36rem;
+}
+.qiye-bottom ul li{
+	width: 33.333333%;
+	height: 1.32rem;
+	float: left;
+}
+.qiye-bottom ul li img{
+	display: block;
+	width: 1.32rem;
+	height: 1.32rem;
+	margin-right: 0.72rem;
+}
+.gongsilinian{
+	width: 100%;
+	height: 4.25rem;
+}
+.gongsilinian ul{
+	width: 7.05rem;
+	height: 100%;
+	margin: 0 auto;
+}
+.gongsilinian ul li{
+	width: 7.02rem;
+	height: 1.32rem;
+	border-bottom: 0.1rem solid #f5f6fa;
+}
+.gsln-top{
+	width: 100%;
+	height: 0.68rem;
+}
+.gsln-t-l{
+	width: 0.19rem;
+	height: 0.2rem;
+	margin-top: 0.32rem;
+	border-right: 0.04rem solid #01b5ff;
+	float: left;
+}
+.gsln-t-r{
+	width: 6.39rem;
+	height: 0.5rem;
+	float: left;
+	margin-left: 0.2rem;
+	margin-top: 0.15rem;
+	font-size: 0.22rem;
+	color: #444444;
+	line-height: 0.5rem;
+	border-bottom: 0.01rem dashed #999999;
+}
+.gongsilinian ul li span{
+	display: block;
+	font-size: 0.22rem;
+	color: #666666;
+	margin-left: 0.43rem;
+	margin-top: 0.14rem;
+}
+.baoming{
+	width: 100%;
+	height: 2.33rem;
+	background: #f5f6fa;
+}
+.baoming img{
+	width: 1.7rem;
+	height: 1.7rem;
+	display: block;
+	margin: 0 auto;
+}
+footer{
+	width: 100%;
+	height: 1.31rem;
+	background: #f5f6fa;
+	overflow: hidden;
+}
+footer span{
+	display: block;
+	font-size: 0.17rem;
+	margin-left: 1.8rem;
+	margin-top: 0.33rem;
+	color: #666666;
+}
+footer span:nth-of-type(2){
+	margin-left: 1.7rem;
+	margin-top: 0.13rem;
+	font-size: 0.2rem;
+}
